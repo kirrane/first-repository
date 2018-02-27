@@ -9,7 +9,8 @@ public class Index{
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
-    System.out.println("3. Exit");
+    System.out.println("3. Methods");
+    System.out.println("4. Exit");
 
     System.out.println();
 
@@ -28,7 +29,9 @@ public class Index{
         FirstSwitch.main(null);
         break;
       case 3:
-        System.out.println("Exiting....");
+        System.out.println("Methods lab");
+        System.out.println();
+        Methods.main(null);
         break;
       default:
         System.out.println("Invalid choice");
