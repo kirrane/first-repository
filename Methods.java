@@ -3,7 +3,7 @@ public class Methods{
 	public static void main (String[] args){
 		Methods m = new Methods(); //instance
 		m.method1(); //calling method 1
-		Index.main(null);
+
 	}
 
 		public void method1(){

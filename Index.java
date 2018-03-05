@@ -8,9 +8,11 @@ public class Index{
     System.out.println("Select an option (1-3):");
     System.out.println();
     System.out.println("1. Break");
-    System.out.println("2. Switch");
-    System.out.println("3. Methods");
-    System.out.println("4. Exit");
+    System.out.println("2. Switch Lab");
+    System.out.println("3. Methods Lab");
+    System.out.println("4. Return Methods");
+    System.out.println("5. Power Lab");
+    System.out.println("6. Exit");
 
     System.out.println();
 
@@ -32,6 +34,21 @@ public class Index{
         System.out.println("Methods lab");
         System.out.println();
         Methods.main(null);
+        break;
+        case 4:
+		System.out.println("Return Methods");
+		System.out.println();
+		Methods.main(null);
+        break;
+        case 5:
+		System.out.println("Power Lab");
+		System.out.println();
+		Methods.main(null);
+        break;
+        case 6:
+		System.out.println("Exiting...");
+		System.out.println();
+		Methods.main(null);
         break;
       default:
         System.out.println("Invalid choice");
