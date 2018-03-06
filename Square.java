@@ -1,25 +1,21 @@
 import java.util.Scanner;
 
-public class Shadow{
+public class Square{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter square size: ");
 		int side = input.nextInt();
-
-		System.out.print("Enter fill character: ");
-		char fillCharacter = input.next().charAt(0);
-
-
-		fillSquare(side, fillCharacter);
+		squearOfAstericks(side);
 	}
 
-public static void fillSquare(int side, char fillCharacter){
+public static void squearOfAstericks(int side){
 	for (int row = 1; row <= side; row++){
 		for(int col =1; col <= side; col++){
-			System.out.print(fillCharacter);
+			System.out.print("*");
 	}
 			System.out.println();
 		}
 	}
+
 }
