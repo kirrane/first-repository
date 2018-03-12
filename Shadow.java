@@ -1,25 +1,22 @@
-import java.util.Scanner;
-
 public class Shadow{
+	int x = 1;
+
 	public static void main(String[] args){
-		Scanner input = new Scanner(System.in);
-
-		System.out.print("Enter square size: ");
-		int side = input.nextInt();
-
-		System.out.print("Enter fill character: ");
-		char fillCharacter = input.next().charAt(0);
-
-
-		fillSquare(side, fillCharacter);
+		Shadow s = new Shadow();
+		System.out.println("Local x = "+s.localVar());
+		System.out.println("Global x from method = "+s.globalVar());
+		System.out.println("Global x from attribute = "+s.x);
+		Index.main(null);
 	}
 
-public static void fillSquare(int side, char fillCharacter){
-	for (int row = 1; row <= side; row++){
-		for(int col =1; col <= side; col++){
-			System.out.print(fillCharacter);
+	public int localVar(){
+		int x = 2;
+		return x;
+
 	}
-			System.out.println();
-		}
+
+	public int globalVar(){
+		return x;
+
 	}
 }

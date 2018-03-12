@@ -4,8 +4,10 @@ public class Power{
 	public static void main (String[] args){
 		Scanner input = new Scanner(System.in);
 
+
 		System.out.print("Enter Base (negative to quit)= ");
 		int base = input.nextInt();
+
 
 		while(base >= 0){
 			System.out.print("Enter exponent: ");
@@ -14,6 +16,7 @@ public class Power{
 			System.out.println(base+" to the "+exponent+" power is "+integerPower(base, exponent));
 			System.out.print("Enter Base (negative to quit)= ");
 			base = input.nextInt();
+			Index.main(null);
 		}
 	}
 	public static int integerPower(int base, int exponent){
@@ -22,5 +25,7 @@ public class Power{
 			product *= base;
 
 		return product;
+
 	}
+
 }
