@@ -16,8 +16,9 @@ public class Index{
     System.out.println("7. Overloading");
     System.out.println("8. Reverse");
     System.out.println("9. First Array");
-    System.out.println("10.Second Array");
-    System.out.println("11. Exit");
+    System.out.println("10. Second Array");
+    System.out.println("11. Search Student");
+    System.out.println("12. Exit");
 
     System.out.println();
 
@@ -75,7 +76,12 @@ public class Index{
 		System.out.println();
 		SecondArray.main(null);
 		break;
-        case 11:
+		case 11:
+		System.out.println("Search Student");
+		System.out.println();
+		SearchStudent.main(null);
+		break;
+        case 12:
 		System.out.println("Exiting...");
         break;
       	default:
