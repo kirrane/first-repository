@@ -2,10 +2,13 @@
 First repository for software development.
 
 Breif Description of project
-This porject is apart of my studies for software development in GMIT,
+
+This proect is apart of my studies for software development in GMIT,
 this project was given to us by our lecturer Kevin O'Brien.
 
 Instruction on how to clone the repository 
+
+
 1.On GitHub, navigate to the main page of the repository.
 2.Clone or download buttonUnder the repository name, click Clone or download.
 3.Clone URL buttonIn the Clone with HTTPs section, click  to copy the clone URL for the repository.
@@ -16,6 +19,8 @@ Instruction on how to clone the repository
 8.Press Enter. Your local clone will be created.
 
 How to Run the code.
+
+
 1.Open up Index.java in text pad that has a compiler.
 2.Select an option between 1-13
 3.Once the option is selcted it will show chosen app 
