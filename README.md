@@ -4,7 +4,7 @@ First repository for software development.
 Breif Description of project
 
 This project is apart of my studies for software development in GMIT,
-this project was given to us by our lecturer Kevin O'Brien.
+this project was given to us by our lecturer Kevin O'Brien. As part of this project we were asked to build an application overtime.
 
 Instruction on how to clone the repository 
 
