@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 /**
-Search class should implement intergers named celsius and fahrenheit that returns the equivalent of a temperature using the
-calculations given
+Convert class implements an app that should prompt user to enter a search term
+to find amatch or matches in the array also printing out the number of matches found
 */
 
 public class Search{
