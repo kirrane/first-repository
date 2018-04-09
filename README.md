@@ -27,7 +27,6 @@ Instruction on how to clone the repository
 
 How to Run the code.
 
-
 1.Open up Index.java in text pad that has a compiler.
 
 2.Select an option between 1-13
